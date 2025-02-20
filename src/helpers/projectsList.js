@@ -50,7 +50,7 @@ const projectsList = [
       skills: 'JS - CSS - 3D Scroll',
       description: 'This is a Portfolio created for an Interior Designer where his professional work is demonstrated',
       gitHubLink: '',
-      projectLink:'https://ch-interior-design.vercel.app/',
+      projectLink:'https://crina-interior-design.vercel.app/',
       img: project06,
    },
    {

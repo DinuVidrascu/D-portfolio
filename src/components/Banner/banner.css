@@ -1,0 +1,35 @@
+@import '../../styles/main.css';
+
+
+.section.banner {
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.banner {
+   background: var(--banner);
+}
+
+.banner__list {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.banner__item {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   column-gap: 30px;
+}
+
+.banner__item img {
+   width: 50px;
+   transition: all .2s ease;
+}
+
+.banner__item img:hover {
+   transform: translateY(-10px);
+}

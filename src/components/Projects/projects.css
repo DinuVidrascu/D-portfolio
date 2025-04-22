@@ -1,0 +1,21 @@
+@import '../../styles/main.css';
+@import '../../styles/button.css';
+
+
+/*=============== PROJECTS ===============*/
+.projects {
+   background-color: var(--body-color);
+   transition: background-color .4s;
+ }
+ 
+ .projects__container {
+   row-gap: 2rem;
+   position: relative;
+ }
+ 
+ .projects__img {
+  width: 100%; /* Se asigură că imaginea se adaptează la lățimea containerului */
+  height: auto; /* Menține proporțiile corecte ale imaginii */
+  object-fit: cover; /* Acoperă întregul container, fără a distorsiona imaginea */
+  border-radius: .4rem; /* Păstrează colțurile rotunjite */
+}
